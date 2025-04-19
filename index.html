@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Project</title>
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ---------------------------------------------------MENU -->
+      <header class="container__header">
+        <nav class="nav header">
+          <a href="#">
+            <img src="/assets/images/house-rent2.svg" alt="" />
+          </a>
+          <div class="nav__toggler">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+          </div>
+
+          <ul class="list nav__list">
+            <li class="nav__item"><a href="#"> list your property </a></li>
+            <li class="nav__item"><a href="#"> trips </a></li>
+            <li class="nav__item"><a href="#"> messages </a></li>
+            <span class="nav__item-border"></span>
+            <li class="nav__item">
+              <a href="#">
+                <img src="./assets/images/user busi2.jpg" alt="" />
+                <span class="nav__item-name">lsl schoger</span>
+              </a>
+            </li>
+            <li class="nav__item item-info"><a href="#">account setting</a></li>
+            <li class="nav__item item-info"><a href="#">support</a></li>
+            <li class="nav__item item-info"><a href="#">sign out</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- END MENU------------------------------------------------ -->
+
+      <!-- -------------------------------------------------SIDEBAE -->
+      <div class="container__sidebar">
+        <div class="sidebar sidebar__select-option-one">
+          <div class="sidebar__search">
+            <input type="text" placeholder="search..." />
+            <!-- <i class="fa-solid fa-magnifying-glass-location"></i> -->
+            <button class="sidebar__search-filter">
+              <p>filter</p>
+              <div class="bar bar-one"></div>
+              <div class="bar bar-two"></div>
+              <div class="bar bar-three"></div>
+            </button>
+          </div>
+          <div class="sidebar__search-option-all">
+            <div class="sidebar__option-number">
+              <div class="sidebar__option-bedroom">
+                <label for="bedroom">bedroom</label>
+                <select name="bedroom" id="bedroom">
+                  <option value="0" selected>1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+              </div>
+              <div class="sidebar__option-bathroom">
+                <label for="bedroom">bathroom</label>
+                <select name="bathroom" id="bathroom">
+                  <option value="4">1</option>
+                  <option value="5" selected>2</option>
+                </select>
+              </div>
+              <div class="sidebar__option-price">
+                <label for="price">price range</label>
+                <select name="price" id="price">
+                  <option value="6">up to $2,000 /wk</option>
+                  <option value="7">up to $3,000 /wk</option>
+                  <option value="8">up to $3,000 /wk</option>
+                  <option value="9">up to $4,000 /wk</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="sidebar sidebar__type">
+              <p>property type</p>
+              <form action="#">
+                <div class="form-control">
+                  <label for="house">
+                    <input
+                      type="radio"
+                      name="selectHome"
+                      id="house"
+                      value="10"
+                      checked
+                    />
+                    house
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="apartment">
+                    <input
+                      type="radio"
+                      name="selectHome"
+                      id="apartment"
+                      value="11"
+                    />
+                    apartment
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="loft">
+                    <input
+                      type="radio"
+                      name="selectHome"
+                      id="loft"
+                      value="12"
+                    />
+                    loft
+                  </label>
+                </div>
+                <div class="form-control">
+                  <input
+                    type="radio"
+                    name="selectHome"
+                    id="townhouse"
+                    value="13"
+                  />
+                  townhouse
+                </div>
+              </form>
+            </div>
+            <div class="sidebar sidebar__amenities">
+              <p>amenities</p>
+              <form action="#">
+                <div class="form-control">
+                  <label for="balcony">
+                    <input
+                      type="checkbox"
+                      id="balcony"
+                      name="balcony"
+                      value="14"
+                    />
+                    balcony
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="air conditioning">
+                    <input
+                      type="checkbox"
+                      id="air conditioning"
+                      name="air conditioning"
+                      value="15"
+                    />
+                    air conditioning
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="pool">
+                    <input
+                      type="checkbox"
+                      id="pool"
+                      name="pool"
+                      value="16"
+                      checked
+                    />
+                    pool
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="beach">
+                    <input type="checkbox" id="beach" name="beach" value="17" />
+                    beach
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="pet friendly">
+                    <input
+                      type="checkbox"
+                      id="pet friendly"
+                      name="pet friendly"
+                      value="18"
+                    />
+                    pet friendly
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="kid friendly">
+                    <input
+                      type="checkbox"
+                      id="kid friendly"
+                      name="kid friendly"
+                      value="19"
+                    />
+                    kid friendly
+                  </label>
+                </div>
+                <div class="form-control">
+                  <label for="parking">
+                    <input
+                      type="checkbox"
+                      id="parking"
+                      name="parking"
+                      value="20"
+                    />
+                    parking
+                  </label>
+                </div>
+              </form>
+              <div class="form-control form-control-btn">
+                <button type="submit">Update results</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END SIDEBAR--------------------------------------------- -->
+
+      <!-- -------------------------------------------------CONTENT -->
+      <div class="container__content">
+        <div class="content container__content-one">1</div>
+        <div class="content container__content-two">2</div>
+        <div class="content container__content-three">3</div>
+        <div class="content container__content-four">4</div>
+        <div class="content container__content-five">5</div>
+        <div class="content container__content-six">6</div>
+      </div>
+      <!-- END CONTENT--------------------------------------------- -->
+    </div>
+
+    <script src="/js/menu.js"></script>
+  </body>
+</html>
