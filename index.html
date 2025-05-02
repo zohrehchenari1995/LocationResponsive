@@ -15,11 +15,11 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container container-content">
       <!-- ---------------------------------------------------MENU -->
       <header class="container__header">
         <nav class="nav header">
-          <a href="#">
+          <a href="#" class="nav__logo">
             <img src="/assets/images/house-rent2.svg" alt="" />
           </a>
           <div class="nav__toggler">
@@ -51,6 +51,9 @@
       <!-- -------------------------------------------------SIDEBAE -->
       <div class="container__sidebar">
         <div class="sidebar sidebar__select-option-one">
+          <div class="sidebar__logo">
+            <img src="/assets/images/house-rent2.svg" alt="" />
+          </div>
           <div class="sidebar__search">
             <input type="text" placeholder="search..." />
             <!-- <i class="fa-solid fa-magnifying-glass-location"></i> -->
@@ -91,6 +94,7 @@
             </div>
 
             <div class="sidebar sidebar__type">
+              <span class="sidebar__type-border-rf"></span>
               <p>property type</p>
               <form action="#">
                 <div class="form-control">
@@ -141,7 +145,7 @@
             <div class="sidebar sidebar__amenities">
               <p>amenities</p>
               <form action="#">
-                <div class="form-control">
+                <div class="form-control check-one">
                   <label for="balcony">
                     <input
                       type="checkbox"
@@ -152,7 +156,7 @@
                     balcony
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-two">
                   <label for="air conditioning">
                     <input
                       type="checkbox"
@@ -163,7 +167,7 @@
                     air conditioning
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-three">
                   <label for="pool">
                     <input
                       type="checkbox"
@@ -175,13 +179,13 @@
                     pool
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-four">
                   <label for="beach">
                     <input type="checkbox" id="beach" name="beach" value="17" />
                     beach
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-five">
                   <label for="pet friendly">
                     <input
                       type="checkbox"
@@ -192,7 +196,7 @@
                     pet friendly
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-six">
                   <label for="kid friendly">
                     <input
                       type="checkbox"
@@ -203,7 +207,7 @@
                     kid friendly
                   </label>
                 </div>
-                <div class="form-control">
+                <div class="form-control check-seven">
                   <label for="parking">
                     <input
                       type="checkbox"
@@ -214,10 +218,13 @@
                     parking
                   </label>
                 </div>
+                
               </form>
-              <div class="form-control form-control-btn">
-                <button type="submit">Update results</button>
-              </div>
+            </div>
+
+            
+            <div class="sidebar__button">
+              <button type="submit">Update results</button>
             </div>
           </div>
         </div>
@@ -239,5 +246,3 @@
     <script src="/js/menu.js"></script>
   </body>
 </html>
-
-
