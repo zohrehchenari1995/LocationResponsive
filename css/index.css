@@ -1,5 +1,5 @@
 /* ADD FONT FACE */
-@import url("./font.css");
+@import url("/font.css");
 
 /* CSS RESET */
 *,
@@ -60,19 +60,20 @@ html {
 
 /* BODY */
 
+
 /* -------------------------------------------------------------------------CONTAINER */
 .container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr;
   height: 100%;
-  font-size: 4rem;
   box-shadow: 5px 5px 15px 5px rgba(144, 145, 146, 0.5);
   max-width: 1440px;
   margin: 50px auto;
   border-radius: 15px;
   overflow: hidden;
 }
+
 
 
 /* END CONTAINER-------------------------------------------------------------------- */
@@ -88,6 +89,9 @@ html {
   flex-wrap: wrap;
   padding: 1.1rem;
 }
+.nav__logo {
+  margin-bottom: 1rem;
+}
 .nav__toggler .bar {
   width: 25px;
   height: 3px;
@@ -101,6 +105,9 @@ html {
   overflow: hidden;
   opacity: 0;
   transition: all 0.4s ease-out;
+}
+.nav__list .nav__item {
+  margin-bottom: 1.2rem;
 }
 .nav.nav__expand .nav__list {
   max-height: 100vh;
@@ -127,9 +134,9 @@ html {
   vertical-align: middle;
 }
 .nav .nav__item a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
   color: var(--color-primary-0);
 }
 .nav .nav__item.item-info a {
@@ -178,9 +185,10 @@ html {
   outline: 0;
   border: 1px solid var(--color-primary-200);
   border-radius: var(--border-radius-lg);
-  padding: 0 2rem;
-  font-size: 1.6rem;
+  padding: 0 1.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  /* margin-right: 8; */
 }
 .sidebar__search .sidebar__search-filter p {
   position: relative;
@@ -235,7 +243,7 @@ html {
 .sidebar__option-price label {
   display: block;
   color: var(--color-primary-200);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
@@ -294,9 +302,9 @@ html {
   border-bottom: 1px solid var(--color-primary-900);
   color: var(--color-primary-0);
   letter-spacing: 0.1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.4rem;
   text-transform: capitalize;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .sidebar__type p {
   margin: 1.5rem 0 1.5rem;
@@ -304,7 +312,7 @@ html {
   color: var(--color-primary-200);
   letter-spacing: 0.1rem;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-transform: capitalize;
 }
 .sidebar__type .form-control {
@@ -332,13 +340,13 @@ html {
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   color: var(--color-primary-0);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .sidebar__amenities p {
   margin: 1.5rem 0 1.5rem;
   padding-left: 1.5rem;
   color: var(--color-primary-200);
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
@@ -388,41 +396,99 @@ html {
 /* END SIDEBAR--------------------------------------------------------------------------- */
 
 /* ------------------------------------------------------------------------------CONTENT */
+.content {
+  position: relative;
+  margin-bottom: 12rem;
+}
 .container__content {
   background-color: var(--color-secondary-100);
   display: grid;
   grid-template-columns: 1fr;
   max-width: 100vw;
-  gap:16px;
-  padding: 0 17px;
-  overflow: hidden;
+  gap: 16px;
+  overflow: visible;
   justify-items: center;
   align-items: center;
+  padding: 1rem;
+
 }
 
 
-.container__content img{
+
+.container__content img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
   border-radius: var(--border-radius-lg);
-  overflow: hidden;
+  display: block;
   margin-top: 4rem;
-  margin-bottom: 5rem;
 }
-
-
+.content__detail {
+  background-color: #fff;
+  position: absolute;
+  font-size: 1.5rem;
+  margin: 0 12px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  height: 50%;
+  transform: translateY(70%);
+  border-radius: 5px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+}
+.details {
+  margin-bottom: 0.5rem;
+}
+.container__option-button {
+  /* display: bl; */
+  background-color: var(--color-secondary-900);
+  color: var(--color-primary-800);
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+}
+.container__all-options {
+  margin-bottom: 0.5rem;
+  color: var(--color-primary-200);
+}
+.container__title {
+  color: var(--color-primary-900);
+}
+.container__price {
+  color: var(--color-secondary-700);
+}
+.constainer__rate {
+  color: var(--color-secondary-600);
+}
 
 /* END CONTENT------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------------MEDIA FOR CONTAINER(768px) */
 @media screen and (min-width: 768px) {
+  .content {
+    position: relative;
+  }
   .container {
     grid-template-columns: 1fr;
   }
   .container__content {
     grid-template-columns: repeat(2, 1fr);
+ 
   }
-  /* navbar */
+  .container__content img {
+    margin-top: 8rem;
+    
+  }
+  .content__detail {
+    height: 40%;
+  }
+ 
+  /*------------------------------------ navbar */
   .nav {
     flex-wrap: nowrap;
     align-items: center;
@@ -458,9 +524,9 @@ html {
   .nav__item .nav__item-name {
     display: none;
   }
-  /* end navbar */
+  /*------------------------------------------- end navbar */
 
-  /* sidebar */
+  /*---------------------------------------------- sidebar */
 
   .sidebar__logo {
     display: none;
@@ -514,7 +580,7 @@ html {
     width: 200px;
     padding: 1.5rem;
   }
-  /* end sidebar */
+  /*---------------------------------- end sidebar */
 }
 /* END MEDIA FOR CONTAINER(768PX)---------------------------------------------------- */
 
@@ -522,12 +588,24 @@ html {
 @media screen and (min-width: 1024px) {
   .container {
     grid-template-columns: 1fr;
+    /* margin-bottom: 20rem; */
   }
   .container__content {
     grid-template-columns: repeat(3, 1fr);
+
   }
- 
-  /* sidebar */
+  .container__sidebar{
+    position: relative;
+  }
+   .sidebar__button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  /*---------------------- sidebar */
   .sidebar__logo {
     display: none;
   }
@@ -587,7 +665,7 @@ html {
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
     grid-column: 1/-1;
-    /* max-height: 100px; */
+    max-height: 100px;
     margin-top: 15rem;
     padding-left: 1.2rem;
   }
@@ -597,8 +675,7 @@ html {
 @media screen and (min-width: 1280px) {
   .container {
     grid-template-columns: 320px 1fr;
-    grid-template-rows: auto 1fr;
-    /* height: 100vh; */
+    /* grid-template-rows: auto 1fr; */
     height: 100%;
   }
   .container__header {
@@ -702,40 +779,22 @@ html {
 
 /*------------------------------------------------------------------------------- FONTS */
 @media screen and (min-width: 768px) {
-  .list .list__item {
-    font-size: 1.8rem;
-  }
   .nav .nav__item a {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   .sidebar__type form {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   .sidebar__type p {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   .sidebar__amenities form {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   .form-control-btn button {
     font-size: 2rem;
-    letter-spacing: 0.1rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .list .list__item {
-    font-size: 2rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .list .list__item {
-    font-size: 2.5rem;
   }
 }
 
 
-
-
-
-
+body { height: auto; } html, body { min-height: 100vh; overflow-y: auto; }
