@@ -62,10 +62,9 @@ house-rental-responsive-ui/
 • 📦 Flexbox (Component alignment)
 • 📱 Media Queries (Responsive behavior)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 510bc60ae90ff4fd46d5787ece8301960bc73741
+
+
 
 
 
