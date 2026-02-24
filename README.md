@@ -62,13 +62,6 @@ house-rental-responsive-ui/
 • 📦 Flexbox (Component alignment)
 • 📱 Media Queries (Responsive behavior)
 
-💡 What This Project Demonstrates
-
-✔ Strong understanding of CSS Grid layout systems
-✔ Practical Flexbox implementation
-✔ Responsive engineering with structured breakpoints
-✔ Clean separation of layout and component styling
-✔ Maintainable and scalable front-end architecture
 <<<<<<< HEAD
 =======
 
