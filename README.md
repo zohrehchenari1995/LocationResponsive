@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 📝 House Rental Responsive UI
 This project is part of my portfolio and highlights my front-end layout engineering skills.
 
@@ -69,6 +69,10 @@ house-rental-responsive-ui/
 ✔ Responsive engineering with structured breakpoints
 ✔ Clean separation of layout and component styling
 ✔ Maintainable and scalable front-end architecture
+<<<<<<< HEAD
+=======
+
+>>>>>>> 510bc60ae90ff4fd46d5787ece8301960bc73741
 
 
 
