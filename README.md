@@ -69,6 +69,6 @@ house-rental-responsive-ui/
 ✔ Responsive engineering with structured breakpoints
 ✔ Clean separation of layout and component styling
 ✔ Maintainable and scalable front-end architecture
-=======
 
->>>>>>> 554f517736ecd20b5b23cd85bda2f5991e87a323
+
+
