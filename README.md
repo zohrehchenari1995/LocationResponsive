@@ -6,9 +6,13 @@ This project is part of my portfolio and highlights my front-end layout engineer
 The goal of this House Rental project is to demonstrate advanced responsive layout implementation using modern CSS techniques.
 
 This project focuses specifically on:
+
 Building a structured and scalable layout system
+
 Implementing CSS Grid for macro-level layout architecture
+
 Using Flexbox for internal component alignment
+
 Creating a fully responsive experience across mobile, tablet, and desktop devices
 Beyond visual presentation, this project reflects my ability to engineer clean layout systems with proper structural separation and maintainable CSS architecture.
 
@@ -25,8 +29,11 @@ Beyond visual presentation, this project reflects my ability to engineer clean l
 🚀 Installation
 
 Clone the repository:
+
 git clone https://github.com/zohrehchenari1995/LocationResponsive
+
 Open the project:
+
 Open index.html in your browser
 
 ▶️ Usage
