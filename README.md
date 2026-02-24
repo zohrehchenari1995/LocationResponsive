@@ -1,5 +1,5 @@
 
-📝 House Rental Responsive UI
+#📝 House Rental Responsive UI
 This project is part of my portfolio and highlights my front-end layout engineering skills.
 
 🎯 Goal
@@ -16,7 +16,7 @@ Using Flexbox for internal component alignment
 Creating a fully responsive experience across mobile, tablet, and desktop devices
 Beyond visual presentation, this project reflects my ability to engineer clean layout systems with proper structural separation and maintainable CSS architecture.
 
-✨ Features
+##✨ Features
 
 📐 CSS Grid-based main layout (Header, Sidebar, Main, Footer)
 📦 Flexbox for internal alignment and spacing control
@@ -26,7 +26,7 @@ Beyond visual presentation, this project reflects my ability to engineer clean l
 🏘️ Dynamic property card grid system
 🧱 Clean and scalable folder structure
 
-🚀 Installation
+##🚀 Installation
 
 Clone the repository:
 
