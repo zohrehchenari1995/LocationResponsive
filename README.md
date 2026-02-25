@@ -1,5 +1,6 @@
 # 🏘️ House Rental Responsive UI
 
+<<<<<<< HEAD
 This project is part of my portfolio and highlights my front-end layout engineering skills.
 
 🎯 Goal
@@ -63,6 +64,10 @@ house-rental-responsive-ui/
 🛠️ Technologies Used
 
 🌐 HTML5 (Semantic structure)
+=======
+
+
+>>>>>>> origin/master
 
 🎨 CSS3 (Modern layout system)
 
