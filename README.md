@@ -1,45 +1,54 @@
-# 🎟️ Cinema Ticket Booking
+# 🏘️ House Rental Responsive UI
 
-This project is part of my portfolio and highlights my front-end development skills.
+This project is part of my portfolio and highlights my front-end layout engineering skills.
 
 ---
 
 ## 🎯 Goal
 
-The goal of the Cinema Ticket Booking project is to demonstrate practical front-end development skills through building a clean, responsive, and interactive layout using only HTML and CSS.
+The goal of this House Rental project is to demonstrate advanced responsive layout implementation using modern CSS techniques.
 
-It focuses on:
+This project focuses specifically on:
 
-- Structuring layouts efficiently with CSS Grid
-- Managing alignment and spacing using Flexbox
-- Designing responsive interfaces for mobile, tablet, and desktop
-- Creating a clean and scalable UI architecture
+- Building a structured and scalable layout system
+- Implementing CSS Grid for macro-level layout architecture
+- Using Flexbox for internal component alignment
+- Creating a fully responsive experience across mobile, tablet, and desktop devices
+- Engineering clean, maintainable CSS architecture with proper structural separation
 
-### 🌍 Real-World Application
+---
 
-This project simulates a real-world online cinema reservation platform where users can browse available movies, check showtimes, and visually select seats before booking. 
+## 🌍 Real-World Application
 
-In a real production environment, this UI could be connected to a backend system to handle:
-- User authentication
-- Real-time seat availability
-- Online payment processing
-- Booking confirmation systems
+This project simulates a real-world property rental platform where users can browse available houses, explore categorized listings, and view property cards in a structured layout.
 
-It demonstrates how modern layout systems can be used to build scalable ticket reservation platforms for cinemas, theaters, or live events.
+In a real production environment, this interface could be integrated with:
+
+- Property management systems
+- User authentication and profile handling
+- Real-time availability filtering
+- Search and sorting functionalities
+- Booking or rental request systems
+
+It demonstrates how scalable layout systems can be applied to real estate platforms, rental marketplaces, or property listing services.
 
 ---
 
 ## ✨ Features
 
-🎬 Display movie listings with showtimes  
+📐 CSS Grid-based main layout (Header, Sidebar, Main, Footer)  
 
-🪑 Seat selection layout using CSS Grid  
+📦 Flexbox for internal alignment and spacing control  
 
-✅ Fully responsive design for mobile and desktop  
+📱 Fully responsive (Mobile-First approach)  
 
-⚡ Modern layout with Flexbox for navigation and content sections  
+📂 Adaptive Sidebar behavior across breakpoints  
 
-🎨 Clean UI design showcasing practical CSS techniques  
+📌 Responsive navigation structure  
+
+🏘️ Dynamic property card grid system  
+
+🧱 Clean and scalable folder structure  
 
 ---
 
@@ -48,36 +57,43 @@ It demonstrates how modern layout systems can be used to build scalable ticket r
 Clone the repository:
 
 
-git clone https://github.com/zohrehchenari1995/Management-Panel-Ticket
+git clone https://github.com/zohrehchenari1995/LocationResponsive
 
 
-Open `index.html` in your browser to view the project.
+Open `index.html` in your browser.
 
-⚠️ No additional dependencies or build tools are required.
+---
+
+## ▶️ Usage
+
+This project is a static front-end layout demonstration. Simply open the main HTML file in your browser to view the responsive behavior. Resize the browser window to observe layout transitions between breakpoints.
 
 ---
 
 ## 📂 Project Structure
 
 
-cinema-ticket-booking/
-├── index.html # Main landing page
+house-rental-responsive-ui/
+├── index.html
 ├── css/
-│ └── style.css # Flexbox and Grid based styling
-├── images/ # Movie posters and assets
-└── README.md # Project documentation
+│ ├── style.css
+│ ├── responsive.css
+├── assets/
+│ ├── images/
+│ ├── icons/
+└── README.md
 
 
 ---
 
 ## 🛠️ Technologies Used
 
-🎨 HTML5 (Semantic structure)  
+🌐 HTML5 (Semantic structure)  
 
-⚡ CSS3 (Modern styling techniques)  
+🎨 CSS3 (Modern layout system)  
 
 📐 CSS Grid (Layout architecture)  
 
 📦 Flexbox (Component alignment)  
 
-📱 Responsive Web Design (Mobile-first approach)
+📱 Media Queries (Responsive behavior)
